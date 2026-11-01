@@ -55,12 +55,18 @@ Docs do plotly: https://plotly.com/python/plotly-express/
 
 Ambas os múdulos se encontram no arquivo requiremnets.txt e com versão utilizada de cada módulo.
 
-O dataset não estará disponivel no repositório, então precisará ser baixado pela plataforma Kaglle. Abaixo estão os passos para obtenção do dataset quanto para poder ser acessado pelo código:
+O dataset não estará disponivel no repositório, então precisará ser baixado pela plataforma Kaglle. 
+
+Abaixo estão os passos para obtenção do dataset quanto para poder ser acessado pelo código:
 
 Passo 1: acesse a plataforma Kaglle e se cadastre caso não tenha conta
+
 Passo 2: pesquise o nome do dataset que é Sao Paulo Housing Prices
+
 Passo 3: busque o icone de baixar e clique para fazer dawload
+
 Passo 4: após baixar, leve o arquivo para mesma pasta onde está o código por conta que o módulo pandas só funciona se orquivo estiver na mesmas localização que o aqruivo executável
+
 Passo 5: para os qruivo ser lido, precisa-se utilizar a função pandas.readcsv(). Lembrando, que o nome do arquivo tem que estar entre espas, ou seja, como uma string e o arquivo está no formato csv.
 
 Se for utilizar o caminho completo do windows para acessar o arquivo, utilize a seguinte sintaxe pandas.readcsv(r"nome do arquivo.csv"). 
