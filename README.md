@@ -20,6 +20,7 @@ em relação ao dados como exemplo: a média de cada uma das colunas, o valor m�
 Inteligência artificial generativa foi utilizado n código, mas para tirar dúvidas ao aparecerem erros no terminl do VS Code, para correção de sintaxe, busca de soluação para problemas que não tiveram soluções com mente humana, para pedir ajuda para verificar se a lógica do código em alguns trechos estavam corretas e também para verificação se a sintaxe estava correta.
 
 ANÁLISE(S) DO DATASET 
+
 Valor médio e mediano:
 
 De inicio, foi tirada o preço médio do aluguel que teve como resultado  R$3250,81 de valor. O resultado foi gerado com base apenas na coluna 'Aluguel'. Como também, foi tirada o valor mediano que seu valor foi R$ 2415,00. O valor médio e valor mediano, tem grandes diferenças pois a média soma todos os valores e divide pelo total e já mediana apenas consiste em pegar o valor que aparece no meio de todos os valores.
@@ -51,6 +52,7 @@ Acesse o terminal, e digite o seguinte comando: py -m pip install (nome do módu
 Segue o link da documentação das bibliotecas:
 
 Docs do pandas: https://pandas.pydata.org/
+
 Docs do plotly: https://plotly.com/python/plotly-express/
 
 Ambas os múdulos se encontram no arquivo requiremnets.txt e com versão utilizada de cada módulo.
@@ -71,4 +73,4 @@ Passo 5: para os qruivo ser lido, precisa-se utilizar a função pandas.readcsv(
 
 Se for utilizar o caminho completo do windows para acessar o arquivo, utilize a seguinte sintaxe pandas.readcsv(r"nome do arquivo.csv"). 
 
-E por último, para acessar os dependências usdas utilize o seguinte comando no terminal da IDE: py -m pip install -r requirements.txt
+E por último, para acessar os dependências usadas utilize o seguinte comando no terminal da IDE: py -m pip install -r requirements.txt
